@@ -2,7 +2,7 @@
 
 ## Présentation du projet
 
-**JUDHOUR (جُذور)** est une plateforme web qui vise à mettre en valeur les coopératives locales et leurs produits naturels, notamment les coopératives spécialisées dans les produits biologiques et du terroir de la région Tanger-Tétouan-Al Hoceïma et des provinces du Sud.
+**JUDHOUR (جُذور)** est une plateforme web qui vise à mettre en valeur les coopératives locales et leurs produits naturels, notamment les coopératives spécialisées dans les produits biologiques et du terroir de la région Tanger-Tétouan-Al Hoceïma.
 
 Le projet a pour objectif de créer un espace numérique permettant aux coopératives de présenter leurs activités, leurs produits et leurs capacités de production, tout en facilitant leur mise en relation avec des acheteurs, des distributeurs et des partenaires potentiels.
 
