@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    letter-spacing: -0.01em;
+}
+
+body {
+    background-color: #faf9f6; /* Blanc cassé / lin très élégant */
+    color: #1a202c;
+    line-height: 1.6;
+}
+
+.navbar {
+    background-color: #0f2a1d; /* Vert forêt très profond et prestigieux */
+    color: white;
+    padding: 20px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+.logo span {
+    font-size: 13px;
+    font-weight: 400;
+    color: #d4af37; /* Touche dorée discrète */
+    margin-left: 6px;
+}
+
+.btn-back {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.btn-back:hover {
+    color: #ffffff;
+}
+
+.page-container {
+    max-width: 1150px;
+    margin: 40px auto;
+    padding: 0 24px;
+    display: flex;
+    gap: 32px;
+}
+
+.left-column {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.right-column {
+    flex: 1;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid #eae6df;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+}
+
+.badge-territory {
+    display: inline-block;
+    background-color: #f4f1ea;
+    color: #4a4033;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 6px 12px;
+    border-radius: 6px;
+    margin-bottom: 14px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #0f2a1d;
+    margin-bottom: 6px;
+}
+
+.subtitle {
+    color: #64748b;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.tags-container {
+    display: flex;
+    gap: 12px;
+}
+
+.tag {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 6px;
+}
+
+.tag.green { 
+    background-color: #e6f4ea; 
+    color: #137333; 
+}
+.tag.amber { 
+    background-color: #fef7e0; 
+    color: #b06000; 
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #0f2a1d;
+    margin-bottom: 12px;
+}
+
+.description {
+    color: #475569;
+    font-size: 15px;
+    margin-bottom: 24px;
+}
+
+/* Grille des statistiques (Style épuré) */
+.stats-grid {
+    display: flex;
+    gap: 16px;
+}
+
+.stat-box {
+    flex: 1;
+    background-color: #fcfbf9;
+    border: 1px solid #eae6df;
+    padding: 16px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.stat-value {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0f2a1d;
+}
+
+.stat-label {
+    font-size: 11px;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-top: 4px;
+}
+
+.section-badge {
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #b06000;
+    letter-spacing: 0.1em;
+}
+
+.opportunity-text {
+    font-size: 14px;
+    color: #475569;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.divider {
+    height: 1px;
+    background-color: #eae6df;
+    margin: 20px 0;
+}
+
+.info-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #475569;
+}
+
+.info-row strong {
+    color: #0f2a1d;
+}
+
+.highlight-green {
+    color: #137333;
+    font-weight: 600;
+}
+
+.btn-primary {
+    width: 100%;
+    background-color: #0f2a1d; /* Vert forêt élégant */
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-bottom: 12px;
+}
+
+.btn-primary:hover {
+    background-color: #1b4733;
+}
+
+.btn-secondary {
+    width: 100%;
+    background-color: transparent;
+    color: #0f2a1d;
+    border: 1px solid #cbd5e1;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn-secondary:hover {
+    border-color: #0f2a1d;
+    background-color: #fcfbf9;
+}
+
+.image-card {
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid #eae6df;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+    height: 220px;
+}
+
+.coop-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
